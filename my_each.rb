@@ -7,8 +7,6 @@ def my_each(array)
       my_each << yield(array[i])
       i += 1
     end
-
-
-    array
   end
+      my_each
 end
